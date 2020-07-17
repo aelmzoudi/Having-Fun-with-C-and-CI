@@ -11,5 +11,5 @@ install:
 
 script:
   - echo "Reached Script Section"
-  - gcc initial_demo.c -o output
+  - gcc initial_demo_code.c -o output
   - ./output
