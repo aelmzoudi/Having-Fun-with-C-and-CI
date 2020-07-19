@@ -15,3 +15,9 @@ script:
   - echo "Reached Script Section"
   - gcc initial_demo_code.c -o output
   - ./output
+  - size output
+  
+  - echo "Reached Script Section - cunit_demo"
+  - gcc intial_demo_code_cunit.c -o cunit_democode -lcunit
+  - ./cunit_democode
+  - size cunit_democode
